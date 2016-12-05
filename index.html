@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Travora</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/lodash.min.js"></script>
+	<script src="js/angular-simple-logger.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
+	<script src="js/angular-momentjs.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<base href="/"></base>
+</head>
+<body ng-app="secretsanta"  ng-controller="mainCtrl">
+	<div id="background">
+	    <div id="ground">&nbsp;</div>
+	    <div id="sky">&nbsp;</div>
+	</div>
+	<div class="cloud"></div>
+	<div class="cloud2" src="/img/cloud2.png"></div>
+	<div ng-class="{'mountain preload' : !active , 'mountain preload active': active}" src="/img/mountain.png"></div>
+	<div ng-class="{'tree preload': !active , 'preload active tree' : active}" src="/img/tree.png"></div>
+	<div ng-class="{'tree2 preload': !active , 'preload active tree2' : active }" src="/img/tree2.png"></div>
+	<div ng-class="{'inputs' : !active, 'inputs active' : active}">
+		<p class="error" ng-show="errorMessage.length > 0">{{errorMessage}}</p>
+		<form class="form-inline">
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="Name" ng-model="inputs.email">
+			</div>
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="Password" ng-model="inputs.pass">
+			</div>
+		</form>
+		<form class="form-inline special">
+			<button type="button" class="btn btn-default" style="background-color: chocolate;" ng-click="register()">Sign Up</button>
+			<button type="button" class="btn btn-default" style="background-color: #32a9a9;" ng-click="login()">Login</button>
+		</form>
+		
+	</div>
+	<div id="dog-sled" ng-class="{'dogsled-fixed-to-start dogsled-fixed-to-screen dogs-legs-moving' : !active,  'dogsled-fixed-to-start dogsled-fixed-to-screen dogs-legs-moving active' : active}" style="transition: left 5s ease-in-out;">
+		<div id="dogs-row1"></div>
+		<div id="dogs-row2"></div>
+		<div id="dogs-row3"></div>
+	</div>
+	<div ng-class="{'secretsanta' : !active , 'secretsanta active': active}">
+		<img class="ctree" src="/img/christmas.png">
+		<section ng-class="{'cube-wrapper' : !open, 'cube-wrapper open' : open }">
+          <div class="cube">
+            <figure class="front"></figure>
+            <figure class="back"></figure>
+            <figure class="right"></figure>
+            <figure class="left"></figure>
+            <figure class="top">
+              <div class="lower lower-left"></div>
+              <div class="lower lower-right"></div>
+              <div class="upper upper-left"></div>
+              <div class="upper upper-right"></div>
+            </figure>
+            <figure class="bottom"></figure>
+            <figure class="shadow"></figure>
+            <figure class="present">
+              <div class="coupon">
+                <span class="coupon-back">{{secretsanta}}</span>
+              </div>
+            </figure>
+          </div>
+       		<button class="secretsantabtn btn btn-default" ng-click="mysanta()" ng-hide="open">Who is my secret santa??</button>
+       	</section>
+	</div>
+</body>
+</html>
