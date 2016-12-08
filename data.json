@@ -1,0 +1,120 @@
+/* 1 */
+{
+    "_id" : ObjectId("5848c38832511b1a40063e2c"),
+    "email" : "vinay",
+    "passsalt" : "897a9ecfdd",
+    "contentsalt" : "9b0e2",
+    "password" : "63c8c50a93cd60218df7e15768e62b2f1a2ed0586232845cff10d7617991ca48a5ff4b434592397bba36d3c4dd4843d3f4e152d06331c79f2d6613ea1e4b68cf",
+    "secretsanta" : "fe8b73d52c2efea626b9c8bd7ad71ca778",
+    "selected" : true
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5845139b1954300705fc5374"),
+    "email" : "Abbi",
+    "passsalt" : "eb196fb1ef",
+    "contentsalt" : "0f150",
+    "password" : "e63459a293e7b2d3b4546c40e2bdaaa2e357aa28dafed0239dc32542779564e571a0b0254c2ce1a2ac900c65956591c451028a1fe7e19dd6c418ebfef9ae2ce1",
+    "secretsanta" : "aeb8b74d5a3c",
+    "selected" : true
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("5845869d1954300705fc5375"),
+    "email" : "thurai",
+    "passsalt" : "d289c184d2",
+    "contentsalt" : "404e9",
+    "password" : "7347cb870018b04861b09d15456960f9bbb60aebe9fc855b229ee24f7cb465e1189029ff9bc811a39af3b90574b291a6dbec3833681d5543ba5a9efc1ec0ee8a",
+    "secretsanta" : "dc8b3d211cae0b21dc",
+    "selected" : true
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("58459556f0e2b609478bef2f"),
+    "email" : "calvin",
+    "passsalt" : "3d129e8ad4",
+    "contentsalt" : "651f0",
+    "password" : "b05c31a6278c59d815c3faf4bb77fdc77cae6568fd21b8125fd03f35478c90a795ee6393eb52250ce69a21ea5f94d7926cf7abcadd9a6411f1ac84c5636764dd",
+    "secretsanta" : "3b2f0fcc9573",
+    "selected" : true
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("5845a290f0e2b609478bef30"),
+    "email" : "Naveen Nagalingam",
+    "passsalt" : "956f72a277",
+    "contentsalt" : "6149d",
+    "password" : "b1538afe8b9cd89fbb2deee942971e53ed54756b04f40b93f9c36a7c312d2bdb66c8aa44566a7eff7926f3fac5c734087889397635c4cefb4510332bad1aa79e",
+    "secretsanta" : "f02659953082",
+    "selected" : true
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("5846c627565de80b06c8149b"),
+    "email" : "Leevend",
+    "passsalt" : "88238728a5",
+    "contentsalt" : "91190",
+    "password" : "b18eb72e3ba06992fc76ccf8f40223c051dccedc29e8f494a5a5255e6cdc90222cf66660271fc4601c332d82f993be6612efb1f031e43221337e39b7721b6abb",
+    "secretsanta" : "584abaee",
+    "selected" : true
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("5846c632565de80b06c8149c"),
+    "email" : "Deepa",
+    "passsalt" : "4a50bb3626",
+    "contentsalt" : "f24cc",
+    "password" : "59f86ad31eaa01787f78c3735cd845371007846f1a1544f6a271344f9b126c3747c81e96701a0e45952eb957ef1449d1e4e7f329df158083d24e44c4a48e2187",
+    "secretsanta" : "b7433e1c4b82e5",
+    "selected" : true
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("58472519565de80b06c8149d"),
+    "email" : "Sangeetha",
+    "passsalt" : "3f674e32a2",
+    "contentsalt" : "feaac",
+    "password" : "7045026036e88f7c6b13c91ce83f4db471ddea579faae6c3dd4d94182875dc5a3551b15b568d1f0deaf54a152c07d060ad23d5a779f07c7f43d5e496604e6640",
+    "secretsanta" : "e22c7620f0",
+    "selected" : true
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("5847275a565de80b06c8149e"),
+    "email" : "Jeevaa",
+    "passsalt" : "043ebb73ed",
+    "contentsalt" : "2a9a8",
+    "password" : "a1a3a34dd37675ff54b14ed1b414ad42e5297cd711239a5bc6e559d8f99eeb9a27703bd5be76185d7699a6c13645c192363d5f92ef9e307c7b868027ed1e8ddf",
+    "secretsanta" : "330c7e3a6c73",
+    "selected" : true
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("58485b46565de80b06c8149f"),
+    "email" : "Karine",
+    "passsalt" : "d2cbe04343",
+    "contentsalt" : "7da8c",
+    "password" : "a25553a380e8afb8065228572285e031069cda9b8e6c01f59e2743612543599976480bc9fa45808385c4e38cf1cbfb4367d2ca21291673d87b3e353271ae2973",
+    "secretsanta" : "519448e4ae",
+    "selected" : true
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("5848b72d9140521a05eb6592"),
+    "email" : "karine",
+    "passsalt" : "671e2d8914",
+    "contentsalt" : "7da8c",
+    "password" : "540373ef29f623ed74b65654067ab1467b538ce67f029c4277a3bbe0a5f1ffd50a298970d9094ad0b2626a66b185339c602cd74fb9dc4dc21c7d86383d9d7d13",
+    "secretsanta" : "519448e4ae",
+    "selected" : true
+}
