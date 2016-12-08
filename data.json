@@ -97,17 +97,6 @@
     "selected" : true
 }
 
-/* 10 */
-{
-    "_id" : ObjectId("58485b46565de80b06c8149f"),
-    "email" : "Karine",
-    "passsalt" : "d2cbe04343",
-    "contentsalt" : "7da8c",
-    "password" : "a25553a380e8afb8065228572285e031069cda9b8e6c01f59e2743612543599976480bc9fa45808385c4e38cf1cbfb4367d2ca21291673d87b3e353271ae2973",
-    "secretsanta" : "519448e4ae",
-    "selected" : true
-}
-
 /* 11 */
 {
     "_id" : ObjectId("5848b72d9140521a05eb6592"),
